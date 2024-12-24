@@ -32,7 +32,8 @@ pip install -r requirements.txt
 ### 2️⃣ Cookie 设置
 
 **获取 Cookie：**
- - 参考浏览器抓包教程视频：https://www.bilibili.com/video/BV1G24y1o75g/，获取 `route` 和 `JSESSIONID` 的 Cookie 值。
+ - 参考浏览器抓包教程视频：https://www.bilibili.com/video/BV1G24y1o75g/
+ - 通过上述的网址的方法获取 `route` 和 `JSESSIONID` 的 Cookie 值。
 
 **填写 Cookie：**
 在代码中找到 `cookies` 变量部分，将获取到的 `route` 和 `JSESSIONID` 冒号后面的内容分别填写至对应冒号中间，如下所示：
